@@ -1,0 +1,26 @@
+.message-details {
+  width: 100%;
+  margin-top: 60px;
+  height: calc(100vh - 60px);
+
+  @include gridle_medium_screen {
+    width: calc(100% - 375px);
+    margin-top: 0;
+    height: unset;
+  }
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  &__inner-container {
+    padding: 20px;
+    height: 100%;
+
+    @include gridle_medium_screen {
+      padding: 36px 28px;
+    }
+  }
+}

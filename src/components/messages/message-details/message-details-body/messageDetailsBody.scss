@@ -1,0 +1,42 @@
+.message-details-body {
+  margin-top: 22px;
+  background-color: white;
+  height: calc(100% - 144px);
+  font-size: 19px;
+
+  &__container {
+    display: flex;
+    flex-direction: column;
+    padding: 36px 28px;
+  }
+
+  &__date {
+    color: $greyText;
+    margin-top: 9px;
+    font-size: 14px;
+
+    @include gridle_medium_screen {
+      font-size: 19px;
+    }
+  }
+
+  &__text {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 18px;
+
+    @include gridle_medium_screen {
+      margin-top: 48px;
+      font-size: 19px;
+      line-height: 22px;
+    }
+  }
+
+  .message-title {
+    font-size: 18px;
+
+    @include gridle_medium_screen {
+      font-size: 19px;
+    }
+  }
+}

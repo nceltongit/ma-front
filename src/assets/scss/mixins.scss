@@ -1,0 +1,5 @@
+@mixin gridle_medium_screen {
+  @media (min-width: 970px) {
+    @content;
+  }
+}
